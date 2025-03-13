@@ -12,8 +12,8 @@ class UserEntity(
     val id: Long = 0,
     var username: String,
     var password: String,
-    var name: String = "",
-    var email: String = "",
+    var name: String,
+    var email: String,
     var role: String,
 
 ) {
